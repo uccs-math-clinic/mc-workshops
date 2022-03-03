@@ -290,3 +290,5 @@ venv/
 
 # IDE
 .idea
+
+.DS_Store
