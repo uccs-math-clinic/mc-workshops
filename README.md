@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uccs-math-clinic/mc-workshops/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uccs-math-clinic/mc-workshops/main?urlpath=tree)
 # UCCS Math Clinic Workshops
 
 This repository contains project data and notebooks which are specific to particular UCCS Math Clinic workshops.
@@ -11,4 +11,4 @@ context of a Python [Virtual Environment](2022/02-16-2022_InstallingPythonJupyte
 
 The notebooks in this repository are also hosted in [BinderHub](https://mybinder.readthedocs.io/en/latest/), which is
 a cloud service designed for sharing interactive computing environments. You can jump right into these notebooks at 
-https://mybinder.org/v2/gh/uccs-math-clinic/mc-workshops/main.
+https://mybinder.org/v2/gh/uccs-math-clinic/mc-workshops/main/urlpath=tree.
