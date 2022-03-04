@@ -5,7 +5,7 @@ This repository contains project data and notebooks which are specific to partic
 
 At the root of this repository is a `requirements.txt` file which lists all Python package requirements for the 
 workshops maintained in this repository. These should be installed by running `pip install -r requirements.txt` in the
-context of a Python [Virtual Environment](2022/02-16-2022_InstallingPythonJupyter/installing-python-jupyter.pdf).
+context of a Python [Virtual Environment](01_InstallingPythonJupyter/installing-python-jupyter.pdf).
 
 ## BinderHub
 
