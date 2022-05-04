@@ -1,8 +1,20 @@
-name: Binder
+name: Build Notebook Container
 on: [push]
 
 jobs:
-  Create-MyBinderOrg-Cache:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@main
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+  create-binder-cache:
     runs-on: ubuntu-latest
     steps:
     - name: cache binder build on mybinder.org
